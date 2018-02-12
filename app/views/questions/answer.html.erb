@@ -1,2 +1,16 @@
-<h1>Questions#answer</h1>
-<p>Find me in app/views/questions/answer.html.erb</p>
+<h1>Stupid Coaching</h1>
+<p>
+  <ul style="list-style-type: none;">
+    <li><%=  @question %></li>
+    <li><em>-- You</li></em>
+    <br>
+    <li><%= @answer %></li>
+    <li><em>-- Your coach</em></li>
+    <br>
+    <li><%= link_to "ask a new question", ask_path %></li>
+  </ul>
+</p>
+
+
+
+
